@@ -32,8 +32,8 @@ public class TestNGTodo1 {
         browserOptions.setPlatformName("Linux");
         browserOptions.setBrowserVersion("dev");
         HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-        ltOptions.put("username", "Your TestMu AI Username");
-        ltOptions.put("accessKey", "Your TestMu AI Access Key");
+        ltOptions.put("username", username);
+        ltOptions.put("accessKey", authkey);
         ltOptions.put("visual", true);
         ltOptions.put("video", true);
         ltOptions.put("build", "HyperExecute_Certification");
